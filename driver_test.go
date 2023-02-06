@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/hashicorp/consul/sdk/freeport"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/nomad-driver-podman/api"
 	"github.com/hashicorp/nomad/client/taskenv"
-	"github.com/hashicorp/nomad/helper/freeport"
 	"github.com/hashicorp/nomad/helper/testlog"
 	"github.com/hashicorp/nomad/helper/uuid"
 	"github.com/hashicorp/nomad/nomad/structs"
